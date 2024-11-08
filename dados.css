@@ -1,0 +1,38 @@
+/* fonte */
+.comfortaa {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+*{
+    font-family: "Comfortaa", sans-serif;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background-color:  #141C3A;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#formulario{
+    background-color: white;
+    height: 60vh;
+    width: 50vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.saudacoes{
+    margin-top: 20px;
+    text-align: center;
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+    gap: 5px;
+}
